@@ -559,3 +559,10 @@ iframe {
 .download-button:hover {
     background-color: #094900; 
 }
+.ricemovie {
+    border-radius: 5px;
+    width: 25%;
+    height: auto;
+}
+    
+    
