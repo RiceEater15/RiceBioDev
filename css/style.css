@@ -76,7 +76,7 @@ header {
     background: rgba(0,0,0,0.4);
     padding: 15px;
     border-radius: 10px;
-    z-index: 999;
+    z-index: 9999;
   }
 
   .nav-links.active {
