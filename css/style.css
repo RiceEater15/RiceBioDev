@@ -51,12 +51,11 @@ header {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
 ul {
   list-style: none;
   padding-left: 0;
 }
-}
+
 .hamburger {
   display: none;
   flex-direction: column;
