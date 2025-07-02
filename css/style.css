@@ -27,6 +27,8 @@ header {
   align-items: center;
   padding: 1.2rem 2rem;
   backdrop-filter: blur(10px);
+  postion: relative;
+  z-index: 1000;
 }
 
 .logo {
