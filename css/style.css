@@ -166,6 +166,58 @@ main {
   }
 }
 
+.people-box {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  padding: 20px;
+}
+
+.people-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.people-info {
+  flex: 1;
+}
+
+.people-info h3 {
+  margin: 0 0 5px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2rem;
+}
+
+.people-info p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.people-info .btn {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+}
+
+
+@media (max-width: 600px) {
+  .people-box {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .people-info {
+    text-align: center;
+  }
+}
+
 footer {
   margin-top: 60px;
   padding: 20px;
