@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Tuan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Tuan</div>
+    <nav class="nav-links" id="nav">
+      <a href="index.html">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="glass-box">
+      <h2>🎬 RiceMovies</h2>
+      <p>A fast movie search & streaming site built with TMDB API and custom embed services.</p>
+      <a href="https://ricemovies.vercel.app/Other/ricemovies.mobileconfig" target="_blank" class="btn">ios download</a>
+    </div>
+
+    <div class="glass-box">
+      <h2>RiceHub</h2>
+      <p>iOS Sideloading Project</p>
+      <a href="https://rice-hub-downloads.vercel.app" class="btn">Visit Website</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Tuan
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
