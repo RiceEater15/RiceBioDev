@@ -22,13 +22,12 @@ body {
 }
 
 header {
-  display: fixed;
+  display: relative;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 2rem;
   backdrop-filter: blur(10px);
   postion: relative;
-  z-index: 1000;
 }
 
 .logo {
@@ -76,7 +75,6 @@ header {
     background: rgba(0,0,0,0.4);
     padding: 15px;
     border-radius: 10px;
-    z-index: 1000;
   }
 
   .nav-links.active {
