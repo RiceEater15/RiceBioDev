@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiceMovies - Download</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 500px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+      border-radius: 25%;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #ffb6c1;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      line-height: 1.5;
+      color: #cccccc;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #ff4f81, #ffb6c1);
+      color: white;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 182, 193, 0.6);
+    }
+
+    .btn-secondary {
+      margin-top: 20px;
+      display: block;
+      background: linear-gradient(135deg, #444, #777);
+      color: #fff;
+    }
+
+    .btn-secondary:hover {
+      box-shadow: 0 0 20px rgba(200, 200, 200, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- App Logo -->
+    <img src="app-logo.png" alt="RiceMovies Logo" class="logo" />
+
+    <!-- Title -->
+    <h1>RiceMovies</h1>
+
+    <!-- Info -->
+    <p>RiceMovies lets you discover, search, and enjoy movies and TV shows with ease. 
+    A smooth, ad-free experience for entertainment lovers, powered by TMDB.</p>
+
+    <!-- Download Buttons -->
+    <a href="RiceMovies.ipa" class="btn">📥 Download RiceMovies</a>
+    <a href="AdBlocker.ipa" class="btn btn-secondary">🛡️ Download Ad Blocker</a>
+  </div>
+</body>
+</html>
